@@ -14,7 +14,8 @@ $messages['en'] = array(
 	'uploadify-file-list' 		=> 'File List',
 	'file-already-exists' 		=> 'File already exists.',
 	'invalid-file-type' 		=> 'Invalid file type.',
-	'uploadify-button-text' 	=> 'SELECT FILES'
+	'uploadify-button-text' 	=> 'SELECT FILES',
+	'uploadify-missing-directory'   => 'Please check that the upload directory for Uploadify is available (usually extensions/Uploadify/upload)'
 );
 
 /** German (Deutsch)
@@ -26,7 +27,8 @@ $messages['de'] = array(
 	'uploadify-file-list' 		=> 'Dateiliste',
 	'file-already-exists' 		=> 'Datei existiert bereits.',
 	'invalid-file-type' 		=> 'Ungültiges Dateiformat.',
-	'uploadify-button-text' 	=> 'DATEIEN WÄHLEN'
+	'uploadify-button-text' 	=> 'DATEIEN WÄHLEN',
+	'uploadify-missing-directory'   => 'Please check that the upload directory for Uploadify is available (usually extensions/Uploadify/upload)'
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
