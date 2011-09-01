@@ -30,7 +30,7 @@ class UploadifyHandler extends SpecialPage {
       // Check if upload directory is available
       if( file_exists($uploadDir) && is_writeable($uploadDir) ) {
 	// Check if extension is valid
-	if (in_array($fileParts['extension'],$wgFileExtensions)) {
+	if (in_array(strtolower($fileParts['extension']),$wgFileExtensions)) {
 	  
 	  // Copy File
 	  move_uploaded_file($tempFile, $targetFile);
